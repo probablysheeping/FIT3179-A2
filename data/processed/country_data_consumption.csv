@@ -1,0 +1,61 @@
+country_code,country_name,region,population_millions,internet_users_millions,internet_penetration_percent,avg_data_per_user_gb_month,monthly_consumption_tb,avg_consumption_tbps,peak_consumption_tbps
+CN,China,Asia,1412.0,1030.76,73,250,257.69,0.001,0.003
+US,United States,North America,331.9,305.35,92,450,137.41,0.0,0.002
+IN,India,Asia,1380.0,648.6,47,250,162.15,0.001,0.002
+MX,Mexico,North America,128.9,92.81,72,450,41.76,0.0,0.001
+ID,Indonesia,Asia,273.5,199.66,73,250,49.91,0.0,0.001
+BR,Brazil,South America,212.6,172.21,81,250,43.05,0.0,0.001
+CA,Canada,North America,38.2,35.91,94,450,16.16,0.0,0.0
+GB,United Kingdom,Europe,67.3,64.61,96,350,22.61,0.0,0.0
+FR,France,Europe,67.7,62.96,93,350,22.04,0.0,0.0
+DE,Germany,Europe,83.2,77.38,93,350,27.08,0.0,0.0
+IT,Italy,Europe,59.1,52.01,88,350,18.2,0.0,0.0
+ES,Spain,Europe,47.4,43.13,91,350,15.1,0.0,0.0
+NL,Netherlands,Europe,17.5,16.62,95,350,5.82,0.0,0.0
+SE,Sweden,Europe,10.5,10.19,97,350,3.56,0.0,0.0
+NO,Norway,Europe,5.5,5.45,99,350,1.91,0.0,0.0
+PL,Poland,Europe,38.0,33.06,87,350,11.57,0.0,0.0
+IE,Ireland,Europe,5.0,4.65,93,350,1.63,0.0,0.0
+CH,Switzerland,Europe,8.7,8.35,96,350,2.92,0.0,0.0
+AT,Austria,Europe,9.0,8.19,91,350,2.87,0.0,0.0
+BE,Belgium,Europe,11.6,10.67,92,350,3.74,0.0,0.0
+DK,Denmark,Europe,5.9,5.78,98,350,2.02,0.0,0.0
+FI,Finland,Europe,5.5,5.22,95,350,1.83,0.0,0.0
+PT,Portugal,Europe,10.3,8.45,82,350,2.96,0.0,0.0
+GR,Greece,Europe,10.6,8.37,79,350,2.93,0.0,0.0
+CZ,Czech Republic,Europe,10.5,9.24,88,350,3.23,0.0,0.0
+RO,Romania,Europe,19.1,16.04,84,350,5.62,0.0,0.0
+HU,Hungary,Europe,9.7,8.24,85,350,2.89,0.0,0.0
+BG,Bulgaria,Europe,6.9,5.18,75,350,1.81,0.0,0.0
+UA,Ukraine,Europe,43.8,34.6,79,350,12.11,0.0,0.0
+JP,Japan,Asia,125.7,119.41,95,250,29.85,0.0,0.0
+KR,South Korea,Asia,51.7,50.67,98,250,12.67,0.0,0.0
+SG,Singapore,Asia,5.9,5.43,92,250,1.36,0.0,0.0
+MY,Malaysia,Asia,32.7,29.43,90,250,7.36,0.0,0.0
+TH,Thailand,Asia,69.8,59.33,85,250,14.83,0.0,0.0
+PH,Philippines,Asia,109.6,73.43,67,250,18.36,0.0,0.0
+VN,Vietnam,Asia,97.3,72.0,74,250,18.0,0.0,0.0
+HK,Hong Kong,Asia,7.5,6.98,93,250,1.74,0.0,0.0
+TW,Taiwan,Asia,23.6,21.71,92,250,5.43,0.0,0.0
+PK,Pakistan,Asia,220.9,46.39,21,250,11.6,0.0,0.0
+BD,Bangladesh,Asia,164.7,64.23,39,250,16.06,0.0,0.0
+IL,Israel,Asia,9.2,8.28,90,250,2.07,0.0,0.0
+AE,United Arab Emirates,Asia,9.9,9.9,100,250,2.48,0.0,0.0
+SA,Saudi Arabia,Asia,34.8,34.1,98,250,8.53,0.0,0.0
+TR,Turkey,Asia,84.3,69.13,82,250,17.28,0.0,0.0
+KZ,Kazakhstan,Asia,18.8,16.36,87,250,4.09,0.0,0.0
+AU,Australia,Oceania,25.7,22.87,89,400,9.15,0.0,0.0
+NZ,New Zealand,Oceania,5.1,4.79,94,400,1.92,0.0,0.0
+AR,Argentina,South America,45.4,39.5,87,250,9.87,0.0,0.0
+CL,Chile,South America,19.1,16.81,88,250,4.2,0.0,0.0
+CO,Colombia,South America,50.9,37.16,73,250,9.29,0.0,0.0
+PE,Peru,South America,32.9,23.36,71,250,5.84,0.0,0.0
+VE,Venezuela,South America,28.4,20.45,72,250,5.11,0.0,0.0
+EC,Ecuador,South America,17.6,11.44,65,250,2.86,0.0,0.0
+UY,Uruguay,South America,3.5,3.08,88,250,0.77,0.0,0.0
+ZA,South Africa,Africa,59.3,42.7,72,150,6.4,0.0,0.0
+EG,Egypt,Africa,102.3,72.63,71,150,10.89,0.0,0.0
+NG,Nigeria,Africa,206.1,113.36,55,150,17.0,0.0,0.0
+KE,Kenya,Africa,53.8,23.13,43,150,3.47,0.0,0.0
+MA,Morocco,Africa,36.9,27.31,74,150,4.1,0.0,0.0
+GH,Ghana,Africa,31.1,18.04,58,150,2.71,0.0,0.0

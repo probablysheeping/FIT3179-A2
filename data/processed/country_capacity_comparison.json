@@ -1,0 +1,672 @@
+{
+  "AE": {
+    "country_code": "AE",
+    "population": 3800000,
+    "peak_consumption_tbps": 0.02394,
+    "total_capacity_tbps": 322.0,
+    "utilization_percent": 0.007434782608695651,
+    "num_cities": 2,
+    "num_cables": 14,
+    "data_per_person_kbps": 30
+  },
+  "AL": {
+    "country_code": "AL",
+    "population": 400000,
+    "peak_consumption_tbps": 0.00336,
+    "total_capacity_tbps": 57.0,
+    "utilization_percent": 0.005894736842105263,
+    "num_cities": 1,
+    "num_cables": 6,
+    "data_per_person_kbps": 40
+  },
+  "AU": {
+    "country_code": "AU",
+    "population": 16200000,
+    "peak_consumption_tbps": 0.15309,
+    "total_capacity_tbps": 341.5,
+    "utilization_percent": 0.04482869692532943,
+    "num_cities": 6,
+    "num_cables": 17,
+    "data_per_person_kbps": 45
+  },
+  "BE": {
+    "country_code": "BE",
+    "population": 3300000,
+    "peak_consumption_tbps": 0.02772,
+    "total_capacity_tbps": 10.0,
+    "utilization_percent": 0.2772,
+    "num_cities": 4,
+    "num_cables": 11,
+    "data_per_person_kbps": 40
+  },
+  "BG": {
+    "country_code": "BG",
+    "population": 1600000,
+    "peak_consumption_tbps": 0.01344,
+    "total_capacity_tbps": 5.5,
+    "utilization_percent": 0.24436363636363637,
+    "num_cities": 2,
+    "num_cables": 2,
+    "data_per_person_kbps": 40
+  },
+  "BR": {
+    "country_code": "BR",
+    "population": 2700000,
+    "peak_consumption_tbps": 0.011339999999999998,
+    "total_capacity_tbps": 110.0,
+    "utilization_percent": 0.010309090909090907,
+    "num_cities": 4,
+    "num_cables": 4,
+    "data_per_person_kbps": 20
+  },
+  "CA": {
+    "country_code": "CA",
+    "population": 17600000,
+    "peak_consumption_tbps": 0.1848,
+    "total_capacity_tbps": 156.5,
+    "utilization_percent": 0.11808306709265176,
+    "num_cities": 10,
+    "num_cables": 7,
+    "data_per_person_kbps": 50
+  },
+  "CH": {
+    "country_code": "CH",
+    "population": 2400000,
+    "peak_consumption_tbps": 0.02016,
+    "total_capacity_tbps": 1.0,
+    "utilization_percent": 2.016,
+    "num_cities": 6,
+    "num_cables": 2,
+    "data_per_person_kbps": 40
+  },
+  "CL": {
+    "country_code": "CL",
+    "population": 6800000,
+    "peak_consumption_tbps": 0.02856,
+    "total_capacity_tbps": 10.0,
+    "utilization_percent": 0.2856,
+    "num_cities": 1,
+    "num_cables": 2,
+    "data_per_person_kbps": 20
+  },
+  "CN": {
+    "country_code": "CN",
+    "population": 56500000,
+    "peak_consumption_tbps": 0.296625,
+    "total_capacity_tbps": 186.0,
+    "utilization_percent": 0.1594758064516129,
+    "num_cities": 6,
+    "num_cables": 12,
+    "data_per_person_kbps": 25
+  },
+  "CO": {
+    "country_code": "CO",
+    "population": 1200000,
+    "peak_consumption_tbps": 0.00504,
+    "total_capacity_tbps": 10.0,
+    "utilization_percent": 0.0504,
+    "num_cities": 3,
+    "num_cables": 2,
+    "data_per_person_kbps": 20
+  },
+  "CR": {
+    "country_code": "CR",
+    "population": 400000,
+    "peak_consumption_tbps": 0.00336,
+    "total_capacity_tbps": 0.5,
+    "utilization_percent": 0.672,
+    "num_cities": 1,
+    "num_cables": 1,
+    "data_per_person_kbps": 40
+  },
+  "CY": {
+    "country_code": "CY",
+    "population": 11000000,
+    "peak_consumption_tbps": 0.06929999999999999,
+    "total_capacity_tbps": 358.5,
+    "utilization_percent": 0.01933054393305439,
+    "num_cities": 1,
+    "num_cables": 15,
+    "data_per_person_kbps": 30
+  },
+  "DE": {
+    "country_code": "DE",
+    "population": 16800000,
+    "peak_consumption_tbps": 0.14112,
+    "total_capacity_tbps": 23.5,
+    "utilization_percent": 0.6005106382978723,
+    "num_cities": 7,
+    "num_cables": 11,
+    "data_per_person_kbps": 40
+  },
+  "DK": {
+    "country_code": "DK",
+    "population": 1300000,
+    "peak_consumption_tbps": 0.01092,
+    "total_capacity_tbps": 44.5,
+    "utilization_percent": 0.02453932584269663,
+    "num_cities": 1,
+    "num_cables": 17,
+    "data_per_person_kbps": 40
+  },
+  "DZ": {
+    "country_code": "DZ",
+    "population": 400000,
+    "peak_consumption_tbps": 0.00084,
+    "total_capacity_tbps": 56.0,
+    "utilization_percent": 0.0015,
+    "num_cities": 1,
+    "num_cables": 4,
+    "data_per_person_kbps": 10
+  },
+  "EG": {
+    "country_code": "EG",
+    "population": 21300000,
+    "peak_consumption_tbps": 0.04472999999999999,
+    "total_capacity_tbps": 266.5,
+    "utilization_percent": 0.016784240150093804,
+    "num_cities": 1,
+    "num_cables": 11,
+    "data_per_person_kbps": 10
+  },
+  "ES": {
+    "country_code": "ES",
+    "population": 13500000,
+    "peak_consumption_tbps": 0.1134,
+    "total_capacity_tbps": 73.5,
+    "utilization_percent": 0.1542857142857143,
+    "num_cities": 4,
+    "num_cables": 12,
+    "data_per_person_kbps": 40
+  },
+  "FI": {
+    "country_code": "FI",
+    "population": 1300000,
+    "peak_consumption_tbps": 0.01092,
+    "total_capacity_tbps": 18.0,
+    "utilization_percent": 0.06066666666666666,
+    "num_cities": 1,
+    "num_cables": 9,
+    "data_per_person_kbps": 40
+  },
+  "FR": {
+    "country_code": "FR",
+    "population": 16100000,
+    "peak_consumption_tbps": 0.13524,
+    "total_capacity_tbps": 230.0,
+    "utilization_percent": 0.0588,
+    "num_cities": 5,
+    "num_cables": 19,
+    "data_per_person_kbps": 40
+  },
+  "GB": {
+    "country_code": "GB",
+    "population": 16900000,
+    "peak_consumption_tbps": 0.14196,
+    "total_capacity_tbps": 580.5,
+    "utilization_percent": 0.024454780361757106,
+    "num_cities": 11,
+    "num_cables": 45,
+    "data_per_person_kbps": 40
+  },
+  "GH": {
+    "country_code": "GH",
+    "population": 2400000,
+    "peak_consumption_tbps": 0.00504,
+    "total_capacity_tbps": 205.0,
+    "utilization_percent": 0.0024585365853658538,
+    "num_cities": 1,
+    "num_cables": 5,
+    "data_per_person_kbps": 10
+  },
+  "GR": {
+    "country_code": "GR",
+    "population": 4200000,
+    "peak_consumption_tbps": 0.03528,
+    "total_capacity_tbps": 5.0,
+    "utilization_percent": 0.7056,
+    "num_cities": 2,
+    "num_cables": 1,
+    "data_per_person_kbps": 40
+  },
+  "GU": {
+    "country_code": "GU",
+    "population": 400000,
+    "peak_consumption_tbps": 0.0021,
+    "total_capacity_tbps": 65.5,
+    "utilization_percent": 0.0032061068702290076,
+    "num_cities": 1,
+    "num_cables": 5,
+    "data_per_person_kbps": 25
+  },
+  "HO": {
+    "country_code": "HO",
+    "population": 400000,
+    "peak_consumption_tbps": 0.0021,
+    "total_capacity_tbps": 65.0,
+    "utilization_percent": 0.0032307692307692306,
+    "num_cities": 1,
+    "num_cables": 4,
+    "data_per_person_kbps": 25
+  },
+  "IC": {
+    "country_code": "IC",
+    "population": 800000,
+    "peak_consumption_tbps": 0.0042,
+    "total_capacity_tbps": 60.5,
+    "utilization_percent": 0.006942148760330578,
+    "num_cities": 1,
+    "num_cables": 4,
+    "data_per_person_kbps": 25
+  },
+  "ID": {
+    "country_code": "ID",
+    "population": 10600000,
+    "peak_consumption_tbps": 0.055649999999999984,
+    "total_capacity_tbps": 160.5,
+    "utilization_percent": 0.03467289719626167,
+    "num_cities": 1,
+    "num_cables": 6,
+    "data_per_person_kbps": 25
+  },
+  "IE": {
+    "country_code": "IE",
+    "population": 2200000,
+    "peak_consumption_tbps": 0.01848,
+    "total_capacity_tbps": 275.0,
+    "utilization_percent": 0.006719999999999999,
+    "num_cities": 3,
+    "num_cables": 19,
+    "data_per_person_kbps": 40
+  },
+  "IL": {
+    "country_code": "IL",
+    "population": 5100000,
+    "peak_consumption_tbps": 0.03213,
+    "total_capacity_tbps": 107.0,
+    "utilization_percent": 0.03002803738317757,
+    "num_cities": 3,
+    "num_cables": 7,
+    "data_per_person_kbps": 30
+  },
+  "IN": {
+    "country_code": "IN",
+    "population": 80900000,
+    "peak_consumption_tbps": 0.424725,
+    "total_capacity_tbps": 226.0,
+    "utilization_percent": 0.18793141592920354,
+    "num_cities": 7,
+    "num_cables": 11,
+    "data_per_person_kbps": 25
+  },
+  "IS": {
+    "country_code": "IS",
+    "population": 400000,
+    "peak_consumption_tbps": 0.00336,
+    "total_capacity_tbps": 168.5,
+    "utilization_percent": 0.0019940652818991097,
+    "num_cities": 1,
+    "num_cables": 13,
+    "data_per_person_kbps": 40
+  },
+  "IT": {
+    "country_code": "IT",
+    "population": 9100000,
+    "peak_consumption_tbps": 0.07644,
+    "total_capacity_tbps": 285.0,
+    "utilization_percent": 0.026821052631578947,
+    "num_cities": 6,
+    "num_cables": 21,
+    "data_per_person_kbps": 40
+  },
+  "JP": {
+    "country_code": "JP",
+    "population": 58000000,
+    "peak_consumption_tbps": 0.3045,
+    "total_capacity_tbps": 341.0,
+    "utilization_percent": 0.08929618768328446,
+    "num_cities": 4,
+    "num_cables": 16,
+    "data_per_person_kbps": 25
+  },
+  "KO": {
+    "country_code": "KO",
+    "population": 400000,
+    "peak_consumption_tbps": 0.00336,
+    "total_capacity_tbps": 0.5,
+    "utilization_percent": 0.672,
+    "num_cities": 1,
+    "num_cables": 1,
+    "data_per_person_kbps": 40
+  },
+  "KR": {
+    "country_code": "KR",
+    "population": 29000000,
+    "peak_consumption_tbps": 0.15225,
+    "total_capacity_tbps": 131.0,
+    "utilization_percent": 0.11622137404580153,
+    "num_cities": 2,
+    "num_cables": 10,
+    "data_per_person_kbps": 25
+  },
+  "LA": {
+    "country_code": "LA",
+    "population": 800000,
+    "peak_consumption_tbps": 0.00672,
+    "total_capacity_tbps": 6.0,
+    "utilization_percent": 0.11200000000000002,
+    "num_cities": 1,
+    "num_cables": 3,
+    "data_per_person_kbps": 40
+  },
+  "LE": {
+    "country_code": "LE",
+    "population": 400000,
+    "peak_consumption_tbps": 0.00252,
+    "total_capacity_tbps": 257.5,
+    "utilization_percent": 0.0009786407766990291,
+    "num_cities": 1,
+    "num_cables": 11,
+    "data_per_person_kbps": 30
+  },
+  "LI": {
+    "country_code": "LI",
+    "population": 1200000,
+    "peak_consumption_tbps": 0.01008,
+    "total_capacity_tbps": 6.5,
+    "utilization_percent": 0.15507692307692308,
+    "num_cities": 2,
+    "num_cables": 4,
+    "data_per_person_kbps": 40
+  },
+  "MA": {
+    "country_code": "MA",
+    "population": 1200000,
+    "peak_consumption_tbps": 0.00252,
+    "total_capacity_tbps": 332.0,
+    "utilization_percent": 0.0007590361445783132,
+    "num_cities": 2,
+    "num_cables": 16,
+    "data_per_person_kbps": 10
+  },
+  "MO": {
+    "country_code": "MO",
+    "population": 400000,
+    "peak_consumption_tbps": 0.0021,
+    "total_capacity_tbps": 0.5,
+    "utilization_percent": 0.42,
+    "num_cities": 1,
+    "num_cables": 1,
+    "data_per_person_kbps": 25
+  },
+  "MY": {
+    "country_code": "MY",
+    "population": 8300000,
+    "peak_consumption_tbps": 0.043575,
+    "total_capacity_tbps": 120.0,
+    "utilization_percent": 0.0363125,
+    "num_cities": 2,
+    "num_cables": 6,
+    "data_per_person_kbps": 25
+  },
+  "NG": {
+    "country_code": "NG",
+    "population": 13900000,
+    "peak_consumption_tbps": 0.02919,
+    "total_capacity_tbps": 205.0,
+    "utilization_percent": 0.014239024390243904,
+    "num_cities": 1,
+    "num_cables": 5,
+    "data_per_person_kbps": 10
+  },
+  "NL": {
+    "country_code": "NL",
+    "population": 5600000,
+    "peak_consumption_tbps": 0.04703999999999999,
+    "total_capacity_tbps": 9.5,
+    "utilization_percent": 0.4951578947368421,
+    "num_cities": 9,
+    "num_cables": 10,
+    "data_per_person_kbps": 40
+  },
+  "NO": {
+    "country_code": "NO",
+    "population": 1900000,
+    "peak_consumption_tbps": 0.01596,
+    "total_capacity_tbps": 0.5,
+    "utilization_percent": 3.1919999999999997,
+    "num_cities": 3,
+    "num_cables": 1,
+    "data_per_person_kbps": 40
+  },
+  "NZ": {
+    "country_code": "NZ",
+    "population": 2900000,
+    "peak_consumption_tbps": 0.027404999999999995,
+    "total_capacity_tbps": 155.5,
+    "utilization_percent": 0.017623794212218647,
+    "num_cities": 3,
+    "num_cables": 5,
+    "data_per_person_kbps": 45
+  },
+  "PA": {
+    "country_code": "PA",
+    "population": 400000,
+    "peak_consumption_tbps": 0.0021,
+    "total_capacity_tbps": 5.0,
+    "utilization_percent": 0.041999999999999996,
+    "num_cities": 1,
+    "num_cables": 1,
+    "data_per_person_kbps": 25
+  },
+  "PE": {
+    "country_code": "PE",
+    "population": 11000000,
+    "peak_consumption_tbps": 0.04619999999999999,
+    "total_capacity_tbps": 10.5,
+    "utilization_percent": 0.43999999999999995,
+    "num_cities": 1,
+    "num_cables": 3,
+    "data_per_person_kbps": 20
+  },
+  "PH": {
+    "country_code": "PH",
+    "population": 14300000,
+    "peak_consumption_tbps": 0.075075,
+    "total_capacity_tbps": 65.5,
+    "utilization_percent": 0.11461832061068704,
+    "num_cities": 2,
+    "num_cables": 5,
+    "data_per_person_kbps": 25
+  },
+  "PL": {
+    "country_code": "PL",
+    "population": 3500000,
+    "peak_consumption_tbps": 0.0294,
+    "total_capacity_tbps": 1.0,
+    "utilization_percent": 2.94,
+    "num_cities": 2,
+    "num_cables": 2,
+    "data_per_person_kbps": 40
+  },
+  "PT": {
+    "country_code": "PT",
+    "population": 2800000,
+    "peak_consumption_tbps": 0.023519999999999996,
+    "total_capacity_tbps": 216.5,
+    "utilization_percent": 0.010863741339491915,
+    "num_cities": 1,
+    "num_cables": 10,
+    "data_per_person_kbps": 40
+  },
+  "PU": {
+    "country_code": "PU",
+    "population": 400000,
+    "peak_consumption_tbps": 0.0021,
+    "total_capacity_tbps": 292.5,
+    "utilization_percent": 0.0007179487179487179,
+    "num_cities": 1,
+    "num_cables": 18,
+    "data_per_person_kbps": 25
+  },
+  "QA": {
+    "country_code": "QA",
+    "population": 400000,
+    "peak_consumption_tbps": 0.00252,
+    "total_capacity_tbps": 105.5,
+    "utilization_percent": 0.0023886255924170617,
+    "num_cities": 1,
+    "num_cables": 4,
+    "data_per_person_kbps": 30
+  },
+  "RO": {
+    "country_code": "RO",
+    "population": 1900000,
+    "peak_consumption_tbps": 0.01596,
+    "total_capacity_tbps": 5.5,
+    "utilization_percent": 0.29018181818181815,
+    "num_cities": 1,
+    "num_cables": 2,
+    "data_per_person_kbps": 40
+  },
+  "RU": {
+    "country_code": "RU",
+    "population": 14100000,
+    "peak_consumption_tbps": 0.074025,
+    "total_capacity_tbps": 60.0,
+    "utilization_percent": 0.12337499999999998,
+    "num_cities": 5,
+    "num_cables": 3,
+    "data_per_person_kbps": 25
+  },
+  "SE": {
+    "country_code": "SE",
+    "population": 2800000,
+    "peak_consumption_tbps": 0.023519999999999996,
+    "total_capacity_tbps": 30.5,
+    "utilization_percent": 0.07711475409836065,
+    "num_cities": 4,
+    "num_cables": 16,
+    "data_per_person_kbps": 40
+  },
+  "SG": {
+    "country_code": "SG",
+    "population": 5900000,
+    "peak_consumption_tbps": 0.030974999999999992,
+    "total_capacity_tbps": 375.5,
+    "utilization_percent": 0.00824900133155792,
+    "num_cities": 1,
+    "num_cables": 22,
+    "data_per_person_kbps": 25
+  },
+  "SL": {
+    "country_code": "SL",
+    "population": 800000,
+    "peak_consumption_tbps": 0.00672,
+    "total_capacity_tbps": 0.5,
+    "utilization_percent": 1.344,
+    "num_cities": 2,
+    "num_cables": 1,
+    "data_per_person_kbps": 40
+  },
+  "SU": {
+    "country_code": "SU",
+    "population": 800000,
+    "peak_consumption_tbps": 0.0042,
+    "total_capacity_tbps": 50.0,
+    "utilization_percent": 0.0084,
+    "num_cities": 1,
+    "num_cables": 1,
+    "data_per_person_kbps": 25
+  },
+  "TH": {
+    "country_code": "TH",
+    "population": 10700000,
+    "peak_consumption_tbps": 0.05617499999999998,
+    "total_capacity_tbps": 5.0,
+    "utilization_percent": 1.1234999999999997,
+    "num_cities": 1,
+    "num_cables": 1,
+    "data_per_person_kbps": 25
+  },
+  "TR": {
+    "country_code": "TR",
+    "population": 25600000,
+    "peak_consumption_tbps": 0.1344,
+    "total_capacity_tbps": 6.5,
+    "utilization_percent": 2.0676923076923077,
+    "num_cities": 4,
+    "num_cables": 4,
+    "data_per_person_kbps": 25
+  },
+  "TW": {
+    "country_code": "TW",
+    "population": 7000000,
+    "peak_consumption_tbps": 0.03675,
+    "total_capacity_tbps": 110.5,
+    "utilization_percent": 0.0332579185520362,
+    "num_cities": 1,
+    "num_cables": 5,
+    "data_per_person_kbps": 25
+  },
+  "TZ": {
+    "country_code": "TZ",
+    "population": 400000,
+    "peak_consumption_tbps": 0.00084,
+    "total_capacity_tbps": 105.0,
+    "utilization_percent": 0.0007999999999999999,
+    "num_cities": 1,
+    "num_cables": 3,
+    "data_per_person_kbps": 10
+  },
+  "UR": {
+    "country_code": "UR",
+    "population": 800000,
+    "peak_consumption_tbps": 0.00336,
+    "total_capacity_tbps": 50.5,
+    "utilization_percent": 0.006653465346534654,
+    "num_cities": 1,
+    "num_cables": 2,
+    "data_per_person_kbps": 20
+  },
+  "US": {
+    "country_code": "US",
+    "population": 174800000,
+    "peak_consumption_tbps": 1.8353999999999995,
+    "total_capacity_tbps": 594.5,
+    "utilization_percent": 0.30873002523128673,
+    "num_cities": 73,
+    "num_cables": 46,
+    "data_per_person_kbps": 50
+  },
+  "VE": {
+    "country_code": "VE",
+    "population": 400000,
+    "peak_consumption_tbps": 0.00168,
+    "total_capacity_tbps": 65.0,
+    "utilization_percent": 0.002584615384615385,
+    "num_cities": 1,
+    "num_cables": 4,
+    "data_per_person_kbps": 20
+  },
+  "VN": {
+    "country_code": "VN",
+    "population": 16700000,
+    "peak_consumption_tbps": 0.087675,
+    "total_capacity_tbps": 10.0,
+    "utilization_percent": 0.8767500000000001,
+    "num_cities": 2,
+    "num_cables": 2,
+    "data_per_person_kbps": 25
+  },
+  "ZA": {
+    "country_code": "ZA",
+    "population": 14600000,
+    "peak_consumption_tbps": 0.03066,
+    "total_capacity_tbps": 260.0,
+    "utilization_percent": 0.011792307692307692,
+    "num_cities": 2,
+    "num_cables": 7,
+    "data_per_person_kbps": 10
+  }
+}

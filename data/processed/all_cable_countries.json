@@ -1,0 +1,462 @@
+{
+  "US": {
+    "name": "United States of America",
+    "cable_count": 49
+  },
+  "GR": {
+    "name": "Greece",
+    "cable_count": 9
+  },
+  "HR": {
+    "name": "Croatia",
+    "cable_count": 2
+  },
+  "AL": {
+    "name": "Albania",
+    "cable_count": 4
+  },
+  "DJ": {
+    "name": "Djibouti",
+    "cable_count": 7
+  },
+  "YE": {
+    "name": "Yemen",
+    "cable_count": 7
+  },
+  "ZA": {
+    "name": "South Africa",
+    "cable_count": 9
+  },
+  "CI": {
+    "name": "Côte d'Ivoire",
+    "cable_count": 3
+  },
+  "NA": {
+    "name": "Namibia",
+    "cable_count": 2
+  },
+  "AO": {
+    "name": "Angola",
+    "cable_count": 5
+  },
+  "CD": {
+    "name": "Dem. Rep. Congo",
+    "cable_count": 3
+  },
+  "GA": {
+    "name": "Gabon",
+    "cable_count": 3
+  },
+  "CM": {
+    "name": "Cameroon",
+    "cable_count": 4
+  },
+  "NG": {
+    "name": "Nigeria",
+    "cable_count": 5
+  },
+  "BJ": {
+    "name": "Benin",
+    "cable_count": 2
+  },
+  "GH": {
+    "name": "Ghana",
+    "cable_count": 5
+  },
+  "LR": {
+    "name": "Liberia",
+    "cable_count": 1
+  },
+  "GN": {
+    "name": "Guinea",
+    "cable_count": 1
+  },
+  "SN": {
+    "name": "Senegal",
+    "cable_count": 3
+  },
+  "MR": {
+    "name": "Mauritania",
+    "cable_count": 1
+  },
+  "FR": {
+    "name": "France",
+    "cable_count": 29
+  },
+  "PT": {
+    "name": "Portugal",
+    "cable_count": 10
+  },
+  "ES": {
+    "name": "Spain",
+    "cable_count": 14
+  },
+  "MY": {
+    "name": "Malaysia",
+    "cable_count": 26
+  },
+  "LB": {
+    "name": "Lebanon",
+    "cable_count": 7
+  },
+  "CY": {
+    "name": "N. Cyprus",
+    "cable_count": 14
+  },
+  "EG": {
+    "name": "Egypt",
+    "cable_count": 12
+  },
+  "DZ": {
+    "name": "Algeria",
+    "cable_count": 4
+  },
+  "VE": {
+    "name": "Venezuela",
+    "cable_count": 13
+  },
+  "BR": {
+    "name": "Brazil",
+    "cable_count": 11
+  },
+  "PR": {
+    "name": "Puerto Rico",
+    "cable_count": 9
+  },
+  "DO": {
+    "name": "Dominican Rep.",
+    "cable_count": 5
+  },
+  "JP": {
+    "name": "Japan",
+    "cable_count": 20
+  },
+  "CN-TW": {
+    "name": "Taiwan",
+    "cable_count": 8
+  },
+  "CN": {
+    "name": "China",
+    "cable_count": 14
+  },
+  "KR": {
+    "name": "South Korea",
+    "cable_count": 9
+  },
+  "PH": {
+    "name": "Philippines",
+    "cable_count": 8
+  },
+  "GB": {
+    "name": "United Kingdom",
+    "cable_count": 46
+  },
+  "BS": {
+    "name": "Bahamas",
+    "cable_count": 6
+  },
+  "NI": {
+    "name": "Nicaragua",
+    "cable_count": 1
+  },
+  "CO": {
+    "name": "Colombia",
+    "cable_count": 8
+  },
+  "PA": {
+    "name": "Panama",
+    "cable_count": 6
+  },
+  "CR": {
+    "name": "Costa Rica",
+    "cable_count": 3
+  },
+  "HN": {
+    "name": "Honduras",
+    "cable_count": 4
+  },
+  "BZ": {
+    "name": "Belize",
+    "cable_count": 1
+  },
+  "MX": {
+    "name": "Mexico",
+    "cable_count": 4
+  },
+  "TH": {
+    "name": "Thailand",
+    "cable_count": 7
+  },
+  "BN": {
+    "name": "Brunei",
+    "cable_count": 2
+  },
+  "VN": {
+    "name": "Vietnam",
+    "cable_count": 4
+  },
+  "DE": {
+    "name": "Germany",
+    "cable_count": 11
+  },
+  "NL": {
+    "name": "Netherlands",
+    "cable_count": 7
+  },
+  "AR": {
+    "name": "Argentina",
+    "cable_count": 5
+  },
+  "MA": {
+    "name": "Morocco",
+    "cable_count": 3
+  },
+  "AU": {
+    "name": "Australia",
+    "cable_count": 17
+  },
+  "PG": {
+    "name": "Papua New Guinea",
+    "cable_count": 2
+  },
+  "ID": {
+    "name": "Indonesia",
+    "cable_count": 14
+  },
+  "HT": {
+    "name": "Haiti",
+    "cable_count": 3
+  },
+  "IL": {
+    "name": "Israel",
+    "cable_count": 7
+  },
+  "IN": {
+    "name": "India",
+    "cable_count": 14
+  },
+  "LK": {
+    "name": "Sri Lanka",
+    "cable_count": 6
+  },
+  "UY": {
+    "name": "Uruguay",
+    "cable_count": 2
+  },
+  "FI": {
+    "name": "Finland",
+    "cable_count": 9
+  },
+  "SE": {
+    "name": "Sweden",
+    "cable_count": 21
+  },
+  "CA": {
+    "name": "Canada",
+    "cable_count": 9
+  },
+  "DK": {
+    "name": "Denmark",
+    "cable_count": 11
+  },
+  "IS": {
+    "name": "Iceland",
+    "cable_count": 5
+  },
+  "GE": {
+    "name": "Georgia",
+    "cable_count": 2
+  },
+  "RO": {
+    "name": "Romania",
+    "cable_count": 2
+  },
+  "JM": {
+    "name": "Jamaica",
+    "cable_count": 5
+  },
+  "IE": {
+    "name": "Ireland",
+    "cable_count": 12
+  },
+  "CU": {
+    "name": "Cuba",
+    "cable_count": 3
+  },
+  "IT": {
+    "name": "Italy",
+    "cable_count": 27
+  },
+  "NO": {
+    "name": "Norway",
+    "cable_count": 4
+  },
+  "PL": {
+    "name": "Poland",
+    "cable_count": 2
+  },
+  "SO": {
+    "name": "Somalia",
+    "cable_count": 5
+  },
+  "MG": {
+    "name": "Madagascar",
+    "cable_count": 2
+  },
+  "MZ": {
+    "name": "Mozambique",
+    "cable_count": 2
+  },
+  "KE": {
+    "name": "Kenya",
+    "cable_count": 4
+  },
+  "TZ": {
+    "name": "Tanzania",
+    "cable_count": 3
+  },
+  "SD": {
+    "name": "Sudan",
+    "cable_count": 4
+  },
+  "ER": {
+    "name": "Eritrea",
+    "cable_count": 4
+  },
+  "SA": {
+    "name": "Saudi Arabia",
+    "cable_count": 12
+  },
+  "AE": {
+    "name": "United Arab Emirates",
+    "cable_count": 15
+  },
+  "OM": {
+    "name": "Oman",
+    "cable_count": 10
+  },
+  "IR": {
+    "name": "Iran",
+    "cable_count": 7
+  },
+  "LY": {
+    "name": "Libya",
+    "cable_count": 5
+  },
+  "EE": {
+    "name": "Estonia",
+    "cable_count": 5
+  },
+  "TN": {
+    "name": "Tunisia",
+    "cable_count": 7
+  },
+  "KW": {
+    "name": "Kuwait",
+    "cable_count": 4
+  },
+  "QA": {
+    "name": "Qatar",
+    "cable_count": 5
+  },
+  "RU": {
+    "name": "Russia",
+    "cable_count": 6
+  },
+  "NC": {
+    "name": "New Caledonia",
+    "cable_count": 1
+  },
+  "GL": {
+    "name": "Greenland",
+    "cable_count": 1
+  },
+  "BG": {
+    "name": "Bulgaria",
+    "cable_count": 1
+  },
+  "TR": {
+    "name": "Turkey",
+    "cable_count": 5
+  },
+  "UA": {
+    "name": "Ukraine",
+    "cable_count": 1
+  },
+  "LV": {
+    "name": "Latvia",
+    "cable_count": 2
+  },
+  "CL": {
+    "name": "Chile",
+    "cable_count": 3
+  },
+  "PE": {
+    "name": "Peru",
+    "cable_count": 3
+  },
+  "EC": {
+    "name": "Ecuador",
+    "cable_count": 3
+  },
+  "PK": {
+    "name": "Pakistan",
+    "cable_count": 4
+  },
+  "MM": {
+    "name": "Myanmar",
+    "cable_count": 2
+  },
+  "GT": {
+    "name": "Guatemala",
+    "cable_count": 1
+  },
+  "FJ": {
+    "name": "Fiji",
+    "cable_count": 3
+  },
+  "NZ": {
+    "name": "New Zealand",
+    "cable_count": 5
+  },
+  "SR": {
+    "name": "Suriname",
+    "cable_count": 1
+  },
+  "TT": {
+    "name": "Trinidad and Tobago",
+    "cable_count": 1
+  },
+  "GY": {
+    "name": "Guyana",
+    "cable_count": 1
+  },
+  "SY": {
+    "name": "Syria",
+    "cable_count": 1
+  },
+  "CG": {
+    "name": "Congo",
+    "cable_count": 1
+  },
+  "TG": {
+    "name": "Togo",
+    "cable_count": 1
+  },
+  "LT": {
+    "name": "Lithuania",
+    "cable_count": 2
+  },
+  "BE": {
+    "name": "Belgium",
+    "cable_count": 1
+  },
+  "KH": {
+    "name": "Cambodia",
+    "cable_count": 1
+  },
+  "SB": {
+    "name": "Solomon Is.",
+    "cable_count": 1
+  }
+}
