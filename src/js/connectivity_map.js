@@ -1,6 +1,6 @@
 import { mainWorldMapSpec } from './main_world_map.js';
 import { updateContinentMap, generateCableCapacityChart } from './continent_map.js';
-import { DATA_URLS } from './main.js';
+import { DATA_URLS } from './config.js';
 
 // Build connectivity map specification
 function buildConnectivitySpec() {
@@ -16,6 +16,8 @@ function buildConnectivitySpec() {
   }
   spec.width = 800;
   spec.height = 600;
+  spec.padding = 0;
+  spec.autosize = { type: 'none', contains: 'padding' };
   // Add cable paths with halo effect
   spec.layer.push({
     data: { url: DATA_URLS.CABLE_PATHS, format: { type: 'json', property: 'features' } },
@@ -309,8 +311,8 @@ async function computeStats(sourceLabel) {
     
     const radialSpec = {
       $schema: 'https://vega.github.io/schema/vega-lite/v5.json',
-      width: 140,
-      height: 140,
+      width: 100,
+      height: 100,
       data: { values: radialData },
       layer: [
         // Background circle (light gray) to show max extent
