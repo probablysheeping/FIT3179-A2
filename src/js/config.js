@@ -3,10 +3,7 @@
 // ============================================================================
 // All data file URLs are defined here for easy updates (e.g., switching to CDN)
 
-// For local development: use relative paths
-// For GitHub Pages: use GitHub media URLs
-// const BASE_URL = 'https://media.githubusercontent.com/media/probablysheeping/FIT3179-A2/refs/heads/main/';
-const BASE_URL = '';
+const BASE_URL = 'https://media.githubusercontent.com/media/probablysheeping/FIT3179-A2/refs/heads/gh-pages/';
 
 export const DATA_URLS = {
   // Raw data
