@@ -1,6 +1,6 @@
 // Scatter plot showing relationship between distance and latency
 
-import { DATA_URLS } from './main.js';
+import { DATA_URLS } from './config.js';
 
 // Ping efficiency formula (same as main map)
 function getPingEfficiencyFormula(min_score = -8, max_score = 10, ideal_ratio = 2/200, sensitivity = 50) {

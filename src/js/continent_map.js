@@ -1,4 +1,4 @@
-import { DATA_URLS } from './main.js';
+import { DATA_URLS } from './config.js';
 
 // Auto-generated country bounds
 function getCountryBounds(countryCode) {

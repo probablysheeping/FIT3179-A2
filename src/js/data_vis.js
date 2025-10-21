@@ -1,4 +1,4 @@
-import { DATA_URLS } from './main.js';
+import { DATA_URLS } from './config.js';
 
 // ============================================================================
 // PING EFFICIENCY FORMULA - ADJUST THESE PARAMETERS TO EXPERIMENT
