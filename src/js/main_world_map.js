@@ -81,7 +81,7 @@ export const mainWorldMapSpec = {
                     },
                     "legend": {
                         "title": "Cable Era",
-                        "orient": "top-right",
+                        "orient": "bottom-left",
                         "labelLimit": 150
                     }
                 }
