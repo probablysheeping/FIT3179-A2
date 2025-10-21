@@ -3,7 +3,7 @@
 // ============================================================================
 // All data file URLs are defined here for easy updates (e.g., switching to CDN)
 
-const BASE_URL = 'https://media.githubusercontent.com/media/probablysheeping/FIT3179-A2/refs/heads/gh-pages/';
+const BASE_URL = 'https://media.githubusercontent.com/media/probablysheeping/FIT3179-A2/refs/heads/main/';
 
 export const DATA_URLS = {
   // Raw data
