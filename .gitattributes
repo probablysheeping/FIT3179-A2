@@ -1,0 +1,6 @@
+data/output/cable_paths_efficient.geojson filter=lfs diff=lfs merge=lfs -text
+cable_path_segments.csv filter=lfs diff=lfs merge=lfs -text
+data/raw/pings-2020-07-19-2020-07-20.csv filter=lfs diff=lfs merge=lfs -text
+*.geojson filter=lfs diff=lfs merge=lfs -text
+*.csv filter=lfs diff=lfs merge=lfs -text
+data/output/cable_paths.geojson filter=lfs diff=lfs merge=lfs -text

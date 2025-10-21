@@ -1,9 +1,3 @@
-# Large data files
-cable_path_segments.csv
-data/output/cable_paths.geojson
-data/output/cable_paths_efficient.geojson
-data/raw/pings-2020-07-19-2020-07-20.csv
-
 # C++ compiled executables
 analyze_deps
 count_cables
