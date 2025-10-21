@@ -1,3 +1,5 @@
+import { DATA_URLS } from './main.js';
+
 // ============================================================================
 // PING EFFICIENCY FORMULA - ADJUST THESE PARAMETERS TO EXPERIMENT
 // ============================================================================
@@ -48,7 +50,7 @@ const mapSpec = {
 
         // Undersea cables - colored by capacity era
         {
-            "data": {"url": "data/raw/submarine_cables_2d.geojson", "format": {"type": "json", "property": "features"}},
+            "data": {"url": DATA_URLS.SUBMARINE_CABLES, "format": {"type": "json", "property": "features"}},
             "transform": [
                 {
                     "calculate": "datum.properties.rfs ? toNumber(substring(datum.properties.rfs, length(datum.properties.rfs) - 4)) : 1990",
@@ -89,7 +91,7 @@ const mapSpec = {
 
         // Invisible layer for tooltips
         {
-            "data": {"url": "data/raw/submarine_cables_2d.geojson", "format": {"type": "json", "property": "features"}},
+            "data": {"url": DATA_URLS.SUBMARINE_CABLES, "format": {"type": "json", "property": "features"}},
             "transform": [
                 {
                     "calculate": "datum.properties.name || 'Unknown Cable'",
@@ -128,7 +130,7 @@ const mapSpec = {
         
 
         {
-            "data": {"url": "data/processed/region_to_region_normalized.csv"},
+            "data": {"url": DATA_URLS.REGION_TO_REGION_NORMALIZED},
             "transform": [
                 {"fold": ["source_label", "target_label"]},
                 {"calculate": "datum.key == 'source_label' ? datum.source_lat : datum.target_lat", "as": "lat"},
@@ -174,7 +176,7 @@ const scatterSpec = {
   "width": 950,
   "height": 350,
   "data": {
-    "url": "data/processed/region_to_region_bidirectional.csv"
+    "url": DATA_URLS.REGION_TO_REGION_BIDIRECTIONAL
   },
   "params": [
     { "name": "zoom", "select": { "type": "interval", "bind": "scales" } },

@@ -1,5 +1,7 @@
 // Main world map showing all submarine cables and city latency markers
 
+import { DATA_URLS } from './main.js';
+
 // ============================================================================
 // PING EFFICIENCY FORMULA - ADJUST THESE PARAMETERS TO EXPERIMENT
 // ============================================================================
@@ -49,7 +51,7 @@ export const mainWorldMapSpec = {
 
         // Undersea cables - colored by era
         {
-            "data": {"url": "data/raw/submarine_cables_2d.geojson", "format": {"type": "json", "property": "features"}},
+            "data": {"url": DATA_URLS.SUBMARINE_CABLES, "format": {"type": "json", "property": "features"}},
             "transform": [
                 {
                     "calculate": "datum.properties.rfs ? toNumber(substring(datum.properties.rfs, length(datum.properties.rfs) - 4)) : 1990",
@@ -90,7 +92,7 @@ export const mainWorldMapSpec = {
 
         // Invisible layer for cable tooltips
         {
-            "data": {"url": "data/raw/submarine_cables_2d.geojson", "format": {"type": "json", "property": "features"}},
+            "data": {"url": DATA_URLS.SUBMARINE_CABLES, "format": {"type": "json", "property": "features"}},
             "transform": [
                 {
                     "calculate": "datum.properties.name || 'Unknown Cable'",
@@ -128,7 +130,7 @@ export const mainWorldMapSpec = {
 
         // City markers with latency
         {
-            "data": {"url": "data/processed/region_to_region_normalized.csv"},
+            "data": {"url": DATA_URLS.REGION_TO_REGION_NORMALIZED},
             "transform": [
                 {"fold": ["source_label", "target_label"]},
                 {"calculate": "datum.key == 'source_label' ? datum.source_lat : datum.target_lat", "as": "lat"},

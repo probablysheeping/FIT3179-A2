@@ -1,5 +1,7 @@
 // Scatter plot showing relationship between distance and latency
 
+import { DATA_URLS } from './main.js';
+
 // Ping efficiency formula (same as main map)
 function getPingEfficiencyFormula(min_score = -8, max_score = 10, ideal_ratio = 2/200, sensitivity = 50) {
   const range = max_score - min_score;
@@ -13,7 +15,7 @@ export const scatterDistanceLatencySpec = {
   "width": 950,
   "height": 350,
   "data": {
-    "url": "data/processed/region_to_region_bidirectional.csv"
+    "url": DATA_URLS.REGION_TO_REGION_BIDIRECTIONAL
   },
   "params": [
     { "name": "zoom", "select": { "type": "interval", "bind": "scales" } },
