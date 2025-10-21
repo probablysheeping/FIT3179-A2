@@ -1,3 +1,5 @@
+import { DATA_URLS } from './main.js';
+
 // Auto-generated country bounds
 function getCountryBounds(countryCode) {
   // Handle country code aliases/variations
@@ -144,7 +146,7 @@ function buildContinentMapSpec(countryCode, countryName, sourceLabel = null) {
         mark: { type: 'geoshape', fill: '#dbeafe', stroke: '#3b82f6', strokeWidth: 1.5, opacity: 0.6 }
       },
       {
-        data: { url: 'data/raw/submarine_cables_2d.geojson', format: { type: 'json', property: 'features' } },
+        data: { url: DATA_URLS.SUBMARINE_CABLES, format: { type: 'json', property: 'features' } },
         transform: [
           {
             calculate: "datum.properties.name || 'Unknown Cable'",
@@ -198,7 +200,7 @@ function buildContinentMapSpec(countryCode, countryName, sourceLabel = null) {
       },
       // Cities in the country
       {
-        data: { url: 'data/processed/region_to_region_normalized.csv' },
+        data: { url: DATA_URLS.REGION_TO_REGION_NORMALIZED },
         transform: [
           { fold: ['source_label', 'target_label'] },
           { calculate: 'datum.key == "source_label" ? datum.source_country_code : datum.target_country_code', as: 'country_code' },
@@ -226,7 +228,7 @@ function buildContinentMapSpec(countryCode, countryName, sourceLabel = null) {
 async function updateContinentMap(sourceLabel) {
   if (!sourceLabel) return;
   
-  const csvResp = await fetch('data/processed/region_to_region_normalized.csv');
+  const csvResp = await fetch(DATA_URLS.REGION_TO_REGION_NORMALIZED);
   const csvText = await csvResp.text();
   const rows = csvText.split('\n');
   
@@ -313,11 +315,11 @@ async function calculateCableDependency(sourceLabel) {
   
   try {
     // Load submarine cables to build a spatial index
-    const cableResp = await fetch('data/raw/submarine_cables_2d.geojson');
+    const cableResp = await fetch(DATA_URLS.SUBMARINE_CABLES);
     const cableData = await cableResp.json();
     
     // Load cable paths for this source
-    const pathsResp = await fetch('data/output/cable_paths.geojson');
+    const pathsResp = await fetch(DATA_URLS.CABLE_PATHS);
     const pathsData = await pathsResp.json();
     
     // Get all paths from this source
@@ -389,11 +391,11 @@ async function calculateCountryCableCount(sourceLabel, countryCode) {
   
   try {
     // Load submarine cables
-    const cableResp = await fetch('data/raw/submarine_cables_2d.geojson');
+    const cableResp = await fetch(DATA_URLS.SUBMARINE_CABLES);
     const cableData = await cableResp.json();
     
     // Load city data to get all cities in this country
-    const csvResp = await fetch('data/processed/region_to_region_normalized.csv');
+    const csvResp = await fetch(DATA_URLS.REGION_TO_REGION_NORMALIZED);
     const csvText = await csvResp.text();
     const rows = csvText.split('\n');
     
@@ -588,7 +590,7 @@ async function embedBarChart(chartData) {
 async function generateCableCapacityChart(countryCode) {
   try {
     // Load pre-calculated cable breakdown data
-    const breakdownResp = await fetch('data/processed/country_cable_breakdown.json');
+    const breakdownResp = await fetch(DATA_URLS.COUNTRY_CABLE_BREAKDOWN);
     const breakdownData = await breakdownResp.json();
     
     // Get data for this country
@@ -674,7 +676,7 @@ function parseCSVRow(row) {
 async function generateCapacityComparisonChart(countryCode, countryName) {
   try {
     // Load comparison data
-    const comparisonResp = await fetch('data/processed/country_capacity_comparison.json');
+    const comparisonResp = await fetch(DATA_URLS.COUNTRY_CAPACITY_COMPARISON);
     const comparisonData = await comparisonResp.json();
     
     // Update country name in UI

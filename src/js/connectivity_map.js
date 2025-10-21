@@ -1,5 +1,6 @@
 import { mainWorldMapSpec } from './main_world_map.js';
 import { updateContinentMap, generateCableCapacityChart } from './continent_map.js';
+import { DATA_URLS } from './main.js';
 
 // Build connectivity map specification
 function buildConnectivitySpec() {
@@ -17,7 +18,7 @@ function buildConnectivitySpec() {
   spec.height = 600;
   // Add cable paths with halo effect
   spec.layer.push({
-    data: { url: 'data/output/cable_paths.geojson', format: { type: 'json', property: 'features' } },
+    data: { url: DATA_URLS.CABLE_PATHS, format: { type: 'json', property: 'features' } },
     transform: [ { filter: "isValid(sourceCommitted) && length(sourceCommitted) > 0 ? test(regexp(sourceCommitted,'i'), datum.properties.source) : false" } ],
     mark: { type: 'geoshape', stroke: '#ffffff', strokeWidth: 3.0, opacity: 0.30, fill: null },
     encoding: { stroke: { value: '#ffffff' } }
@@ -25,7 +26,7 @@ function buildConnectivitySpec() {
   
   // Add colored cable paths
   spec.layer.push({
-    data: { url: 'data/output/cable_paths.geojson', format: { type: 'json', property: 'features' } },
+    data: { url: DATA_URLS.CABLE_PATHS, format: { type: 'json', property: 'features' } },
     transform: [ 
       { filter: "isValid(sourceCommitted) && length(sourceCommitted) > 0 ? test(regexp(sourceCommitted,'i'), datum.properties.source) : false" },
       { calculate: "format(datum.properties.latency_ms, '.1f') + ' ms'", as: 'latency_display' },
@@ -48,7 +49,7 @@ function buildConnectivitySpec() {
   
   // Add destination city dots
   spec.layer.push({
-    data: { url: 'data/processed/region_to_region_normalized.csv' },
+    data: { url: DATA_URLS.REGION_TO_REGION_NORMALIZED },
     transform: [ 
       { filter: "isValid(sourceCommitted) && length(sourceCommitted) > 0 ? datum.source_label == sourceCommitted : false" },
       { calculate: "format(datum.latency_ms, '.1f') + ' ms'", as: 'latency_display' },
@@ -69,7 +70,7 @@ function buildConnectivitySpec() {
   
   // Add source city as a larger black dot
   spec.layer.push({
-    data: { url: 'data/processed/region_to_region_normalized.csv' },
+    data: { url: DATA_URLS.REGION_TO_REGION_NORMALIZED },
     transform: [ { filter: "isValid(sourceCommitted) && length(sourceCommitted) > 0 ? datum.source_label == sourceCommitted : false" } ],
     mark: { type: 'circle', filled: true, opacity: 1.0, stroke: '#fff', strokeWidth: 1.0, size: 32 },
     encoding: {
@@ -110,7 +111,7 @@ async function computeStats(sourceLabel) {
     return;
   }
   
-  const resp = await fetch('data/processed/region_to_region_normalized.csv');
+  const resp = await fetch(DATA_URLS.REGION_TO_REGION_NORMALIZED);
   const text = await resp.text();
   const rows = text.split('\n');
   const header = rows[0].split(',');
