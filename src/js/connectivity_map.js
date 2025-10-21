@@ -155,10 +155,17 @@ async function computeStats(sourceLabel) {
   const continentOrder = ['North America', 'Europe', 'Asia', 'Africa', 'South America', 'Oceania'];
   
   const continentAvgs = {};
+  const continentEfficiency = {};
   for (const cont of continentOrder) {
     const filtered = data.filter(d => d.tgtCont === cont);
     if (filtered.length > 0) {
       continentAvgs[cont] = filtered.reduce((sum, d) => sum + d.latMs, 0) / filtered.length;
+      
+      // Calculate ping efficiency for this continent
+      const totalLatency = filtered.reduce((sum, d) => sum + d.latMs, 0);
+      const totalDistance = filtered.reduce((sum, d) => sum + d.distKm, 0);
+      const avgRatio = totalDistance > 0 ? totalLatency / totalDistance : 0;
+      continentEfficiency[cont] = 1 + 9 / (1 + 25 * (avgRatio - 1/200));
     }
   }
   
@@ -168,6 +175,7 @@ async function computeStats(sourceLabel) {
       radarData.push({ 
         continent: cont, 
         latency: continentAvgs[cont],
+        efficiency: continentEfficiency[cont] || 0,
         order: i
       });
     }
@@ -192,7 +200,7 @@ async function computeStats(sourceLabel) {
       $schema: 'https://vega.github.io/schema/vega-lite/v5.json',
       width: 50,
       height: 50,
-      data: { values: [{...continentData, latency_display: continentData.latency.toFixed(1) + ' ms'}] },
+      data: { values: [{...continentData, latency_display: continentData.latency.toFixed(1) + ' ms', efficiency_display: continentData.efficiency.toFixed(2)}] },
       layer: [
         // Background circle
         {
@@ -223,7 +231,8 @@ async function computeStats(sourceLabel) {
             },
             tooltip: [
               { field: 'continent', title: 'Continent' },
-              { field: 'latency_display', title: 'Average Latency', type: 'nominal' }
+              { field: 'latency_display', title: 'Average Latency', type: 'nominal' },
+              { field: 'efficiency_display', title: 'Ping Efficiency', type: 'nominal' }
             ]
           }
         },
